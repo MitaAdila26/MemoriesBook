@@ -1,0 +1,71 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FotoFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:padding="19dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_weight="8">
+
+        <ImageButton
+            android:id="@+id/imgView1"
+            android:layout_marginTop="5dp"
+            android:layout_width="160dp"
+            android:layout_height="220dp">
+            </ImageButton>
+
+        <ImageButton
+            android:id="@+id/imgView2"
+            android:layout_marginTop="5dp"
+            android:layout_width="170dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="10dp">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/imgView3"
+            android:layout_marginTop="10dp"
+            android:layout_width="160dp"
+            android:layout_height="220dp">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/imgView4"
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="10dp">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/imgView5"
+            android:layout_marginTop="10dp"
+            android:layout_width="160dp"
+            android:layout_height="220dp">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/imgView6"
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="10dp">
+        </ImageButton>
+    </GridLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
